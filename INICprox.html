@@ -11,9 +11,9 @@
     <script type="text/javascript" src="/floating-whatsapp-master/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="/floating-whatsapp-master/floating-wpp.min.js"></script>
     <link rel="stylesheet" href="/floating-whatsapp-master/floating-wpp.min.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Keania+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Keania+One&family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
 <body>
     <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -40,28 +40,28 @@
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="/img/LOGO.png" alt="Logo" class="mx-5"  style="width:135px;">
+                <img src="/LOGO.png" alt="Logo" class="mx-5"  style="width:135px;">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+            <div  class="collapse navbar-collapse justify-content-end " id="navbarNav">
                 <ul class="navbar-nav px-5">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Puertas blindadas</a>
+                        <a class="nav-link" href="#puertasBlindadas">Puertas blindadas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Servicio</a>
+                        <a class="nav-link" href="#servicios">Servicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#footer">Contacto</a>
                     </li>
 
-                    <li class="nav-item">
-                      <a class="nav-link" href="#"> <i class=" fa fa-wp"></i> WP</a>
+                    <li class="nav-item d-none">
+                      <a class="nav-link" href="https://api.whatsapp.com/send/?phone=5491133359850&text&type=phone_numbe"> <img src="/img/wp-footer.svg" alt="wpIcon"></i>WP - 11 33359850</a>
                   </li>
                 </ul>
             </div>
@@ -109,57 +109,75 @@
       </div>
     </div> 
     
-    <div class="SEGUNDA-SECCION py-4 texto-2  ">
-      <div class="container ">
+    <div class="SEGUNDA-SECCION py-4 texto-2 bg-dark text-light kenia-one ">
+      <div class="container pb-3">
         <div class="row align-items-center">
-        <div class="col-lg-4 col-sm-12">
+        <div class="col-lg-4 col-sm-12 text-center ">
           <img class="img-fluid" src="/img/puertaDesarmada.png" alt="">
         </div>
-        <div class="col-lg-8 col-sm-12">
-          <h2>En CJ PUERTAS SUPER SEGURAS priorizamos a nuestros clientes avalados por mas de 20 años de experiencia  brindando la seguridad que tu hogar necesita</h2> 
-          <ul>
-            <li>
+        <div class="col-lg-8 col-sm-12 d-flex flex-column justify-content-around ">
+          <h2 class="mb-5">En <span style="color: red;"> CJ </span> PUERTAS SUPER SEGURAS priorizamos a nuestros clientes avalados por mas de 20 años de experiencia  brindando la seguridad que tu hogar necesita</h2> 
+          <div class="d-flex flex-column justify-content-around ">
+            <div class="mb-5">
              <p> - instalación sin cargo</p>
-            </li>
-            <li>
+            </div>
+            <div class="mb-5">
               <p> - Cotización a medida</p>
-             </li>
-             <li>
-              <p> - -Trabajamos para toda la Arngentina con un respaldo 10/10 en calificación con nuestros clientes</p>
-             </li>
-          </ul>
+             </div>
+             <!-- valqui.f -->
+             <div class="mb-5">
+              <p> -Trabajamos para toda la Argentina con un respaldo 10/10 en calificación con nuestros clientes</p>
+             </div>
+          </div>
         </div>
       </div>
       </div>
     </div>
 
-    <div class="TERCERA-SECCION py-4 texto-3">
+    <div id="puertasBlindadas" class="TERCERA-SECCION py-4 texto-3 text-light">
       <div class="container">
-        <h3 class="text-center">Conoce el compromiso con nuestros clientes</h3>
+        <h3 class="text-center kenia-one h1 py-3">Conoce el compromiso con nuestros clientes</h3>
         <div class="row">
-          <div class="col-6">
-            <p>
+          <div class="col-lg-8">
+            <p class="noto-sans">
               Aseguramos calidad en los procesos  para asegurarnos de brindar a nuestros clientes el mejor servicio posible y obtener un producto de alta calidad orientado a la seguridad de tu hogar y tu familia
             </p>
-            <h4>Nuestro compromiso:</h4>
-            <ol type="a">
-              <li><strong>Calidad en la fabricación de puertas desarmadas.</strong></li>
-              <li><strong>Asistencia técnica personalizada para cada proyecto.</strong></li>
-              <li><strong>Manejo y entrega del producto en tiempo y forma.</strong></li>
-              </ol>
-              <p>
+            <h4 class="h3 kenia-one pb-2">Nuestro compromiso:</h4>
+            <ul >
+              <li class="pb-3"><strong>Calidad en la fabricación de puertas desarmadas.</strong></li>
+              <li class="pb-3"><strong>Asistencia técnica personalizada para cada proyecto.</strong></li>
+              <li class="pb-3"><strong>Manejo y entrega del producto en tiempo y forma.</strong></li>
+              </ul>
+              <p class="noto-sans text-center">
                 Contáctate con nosotros, contamos con respuesta inmediata y profesionales para resolver todas tus dudas
               </p>
-              <div class="contactoWP">
-                <a class="text-center justify-content-end" href="#"> <img src="/img/wplogo.png" alt=""> +54 9 11 5889-6896</a>
+              <div class="contactoWP noto-sans py-3 text-center">
+                <a class="text-center " href="https://api.whatsapp.com/send/?phone=5491133359850&text&type=phone_numbe"> <img src="/img/logWP.png" class="px-3" alt=""> <span class="tel-border pb-2"> +54 9 11 5889-6896</span></a>
                <br>
-                <a href="#">Hace click y comunicate con nuestro equipo</a>
+                <a class=" lead" href="https://api.whatsapp.com/send/?phone=5491133359850&text&type=phone_numbe">Hace click y comunicate con nuestro equipo</a>
               </div>
           </div>
-          <div class="col-6">
-
+          <div class="col-lg-4 p-4">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="/img/carrusel3-1.png" class="d-block w-100" alt="puertas blindadas CJ1">
+                </div>
+                <div class="carousel-item">
+                  <img src="/img/carrusel3-2.png" class="d-block w-100" alt="puertas blindadas CJ2">
+                </div>
+                <div class="carousel-item">
+                  <img src="/img/carrusel3-3.png" class="d-block w-100" alt="puertas blindadas CJ3">
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="barra-metodos-de-pago">
+          <div class="barra-metodos-de-pago text-center">
             <img src="" alt="barra-metodos-de-pago">
           </div>
         </div>
@@ -167,67 +185,71 @@
     </div>
 
 
-    <div class="seccion-porque">
+    <div id="servicios" class="seccion-porque bg-dark text-light">
 
-      <h3>
-        <img src="" alt="">
-        ¿Porqué elegir CJ PUERTAS SUPER SEGURAS?
+      <h3 class="text-center noto-sans">
+        <img src="/LOGO.png" style="width:135px;" class="d-none d-lg-inline "  alt="logoCJ">
+        <img src="/LOGO.png" style="width:75px;"  class="  d-lg-none" alt="logoCJmobile">
+
+        ¿Porqué elegir <span class="d-block d-lg-inline" style="border-bottom: 2px solid white;" > <span style="color: red;">CJ</span> <span style="font-weight: bold;letter-spacing: 2px;">PUERTAS SUPER SEGURAS?</span> </span>
       </h3>
       <div class="row">
-        <div class="col-6">
-          <img src="/img/puertaDesarmada2.png" class="img-fluid" alt="">
+        <div class="col-lg-6 d-flex align-items-center justify-content-center d-none d-lg-block">
+          <img src="/img/puertaDesarmada2.png" class="img-fluid p-5 rounded" alt="imagen puerta desarmada">
         </div>
-        <div class="col-6">
-          <ul>
-            <li>Todos nuestros productos cuentan con garantía Oficial.</li>
-            <li>Visitamos su domicilio y cotizamos su puerta sin cargo.</li>
-            <li>Hacemos envíos a todo el país.</li>
-            <li>Contamos con service propio. Atención telefónica las 24hs.</li>
-            <li>Rompieron su puerta. Realizamos TRABAJOS URGENTES!</li>
-            <li>COTIZA AL INSTANTE DE LA MANO DE PROFESIONALES</li>
+        <div class="col-lg-6 d-flex align-items-center  noto-sans">
+          <ul class="ul-bullet d-flex flex-column justify-content-around">
+            <li class="mb-3 mb-lg-4">Todos nuestros productos cuentan con garantía Oficial.</li>
+            <li class="mb-3 mb-lg-4">Visitamos su domicilio y cotizamos su puerta sin cargo.</li>
+            <li class="mb-3 mb-lg-4">Hacemos envíos a todo el país.</li>
+            <li class="mb-3 mb-lg-4">Contamos con service propio. Atención telefónica las 24hs.</li>
+            <li class="mb-3 mb-lg-4">Rompieron su puerta. Realizamos TRABAJOS URGENTES!</li>
+            <li class="mb-3 ">COTIZA AL INSTANTE DE LA MANO DE PROFESIONALES</li>
           </ul>
+        </div>
+        <div class="col-lg-6 d-flex align-items-center justify-content-center d-lg-none ">
+          <img src="/img/puertaDesarmada2.png" class="img-fluid p-5 rounded" alt="imagen puerta desarmada">
         </div>
       </div>
     </div>
+    <footer id="footer" class="">
 
-    <div class="footer">
+    <div class="footer bg-dark text-light">
       <div class="container">
 
    
-      <h4>Cotizá con nosotros</h4>
+      <h4 class="h2 noto-sans text-center" >Cotizá con nosotros</h4>
 
       <div class="row">
-        <div class="col-12 col-lg-4">
-          <h5>
+        <div class="col-12 col-lg-4 text-center text-lg-start">
+          <h5 class="px-1 mt-4 pb-2 mx-4 h3" style="letter-spacing: 1px;">
             Contactanos
           </h5>
-          <div class="row row-reverse">
-            <i class="fa fa-phone"></i><span>+54 9 11 5889-6896</span
-              ><br />
-              <a href="#"><i class="fa fa-instagram"></i>
+          <div class="row row-reverse p-3 p-lg-5 ">
+            <a href="https://api.whatsapp.com/send/?phone=5491133359850&text&type=phone_numbe" class="pb-3" > <img src="/img/wp-footer.svg" alt=""> +54 9 11 5889-6896</a>
+              <a href="https://www.instagram.com/puertassuperseguras/" class="pb-3"><img src="/img/ig-footer.svg" alt="">
                 @CJPuertasSeguras</a
                 >
-                <a href="#"><i class="fa fa-fb"></i>
-                  @@PuertasSuperSeguras</a
+                <a href="https://m.facebook.com/login/?next=%2Fprofile.php%3Fid%3D100063886852377%26sk%3Dphotos&refid=17" class="pb-3"><img src="/img/fb-footer.svg" alt="">
+                 @PuertasSuperSeguras</a
                   >
                    
           </div>
         </div>
-        <div class="col-12 col-lg-8 text-center ">
+        <div class="col-12 col-lg-8 text-center pt-3 d-none d-lg-inline pt-5 mt-3">
           <div class="form">
-            <input type="text" placeholder="Nombre" id="nombre" required/><br>
-            <input type="text" placeholder="Localidad" id="localidad"/><br>
-            <input type="tel" placeholder="Telefono" id="telefono" required/><br>
+            <input  class="mb-2" type="text" placeholder="Nombre" id="nombre" required/><br>
+            <input class="mb-2"  type="text" placeholder="Localidad" id="localidad"/><br>
+            <input class="mb-2"  type="tel" placeholder="Telefono" id="telefono" required/><br>
 
-            <textarea name="comentario" id="comentario" placeholder="Mensaje o solicitud"></textarea>   
-            <button onclick="enviarFormulario()">Enviar</button>
+            <textarea class="mb-2" name="comentario" id="comentario" placeholder="Mensaje o solicitud"></textarea>   <br>
+            <button  class="mb-2" onclick="enviarFormulario()">Enviar</button>
           </div>
         </div>
       </div>
 
     </div>
     </div>
-    <footer id="footer" class="mt-3">
       <div class="container">
       
   
@@ -236,44 +258,14 @@
   
       
         
-          <div class="footer-container mt-4 py-1">
+          <div class="footer-container  py-2">
             <p>
-              Copyright &copy; <span>somosalpinas.com.ar</span> 2022 - <a href="https://ktsoftware.com.ar"> <img class="px-2"  src="/img/kt.png" alt="logo kt"> Kt Software</a>
+              Copyright &copy; <span style="color: #426184;">cjpuertassuperseguras.com.ar</span> 2022 - <a class="d-block d-lg-inline" href="https://ktsoftware.com.ar"> <img class="px-2"  src="/img/kt.png" alt="logo kt"> Kt Software</a>
             </p>
           </div>
       
   </footer>
-  <div class="secondfooter">
-    <footer id="footer" class="mt-3">
-      <div class="container">
 
-        <div class="row">
-          <div class="col-4">
-            <h5>Encuentranos</h5>
-            <p>Avenida Rivadavia 1234</p>
-            <p>Buenos Aires, Argentina</p>
-          </div>
-          <div class="col-4">
-            <h5>Navegá</h5>
-            <ul>
-              <li><a href="#">Inicio</a></li>
-              <li><a href="#">Productos</a></li>
-              <li><a href="#">Servicios</a></li>
-              <li><a href="#">Contacto</a></li>
-            </ul>
-          </div>
-          <div class="col-4">
-            <h5>Legal</h5>
-            <ul>
-              <li><a href="#">Política de Privacidad</a></li>
-              <li><a href="#">Términos y Condiciones</a></li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-    </footer>
-  </div>
       <!-- <section class="hero bg-dark text-light py-5">
         <div class="container">
           <div class="row align-items-center">
@@ -303,18 +295,7 @@
       </div>
     </div>
   </div>
-</section> -->
-<section class="hero-section d-flex align-items-center text-center text-lg-start py-5" style="background-image: url('/img/img1figma.jpg');background-repeat: no-repeat;background-size: cover; background-position: center;">
-    <div class="container py-4">
-      <div class="row py-5">
-        <div class="col-lg-12    text-dark text-center">
-          <h1 class="hero-heading mb-4">La mejor protección para tu hogar o negocio</h1>
-          <p class="hero-text mb-4 px-4">En MundoLock, ofrecemos una amplia variedad de puertas blindadas diseñadas para proteger tus bienes más preciados. Nuestro equipo de expertos en seguridad está a tu disposición para asesorarte y ayudarte a elegir la mejor opción para tus necesidades. Contáctanos hoy mismo para cotizar o hacer consultas.</p>
-          <a href="#contact-section" class="btn btn-primary">Contáctanos</a>
-        </div>
-      </div>
-    </div>
-  </section>
+
       <!-- <section class="armored-doors py-5">
         <div class="container">
           <div class="row">
@@ -329,7 +310,7 @@ Además, nuestro equipo de expertos en seguridad está altamente capacitado para
 
 No arriesgues la seguridad de tu hogar o negocio. Confía en [nombre de la empresa] para proteger lo que más te importa."
 </p>         
-   </div>
+</div>
           </div>
         </div>
       </section> -->
@@ -363,99 +344,7 @@ No arriesgues la seguridad de tu hogar o negocio. Confía en [nombre de la empre
           </div>
       </div> -->
    
-      <div class="container">
-        <h2>Slider 1</h2>
-        <div class="slider-1">
-          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="/img/1.jpeg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="/img/2.jpeg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="/img/3.jpeg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-      
-        <h2>Slider 2</h2>
-        <div class="slider-2">
-          <div class="row slider-row">
-            <div class="col-4">
-              <img src="https://via.placeholder.com/150" class="img-fluid">
-            </div>
-            <div class="col-4">
-              <img src="https://via.placeholder.com/150" class="img-fluid">
-            </div>
-            <div class="col-4">
-              <img src="https://via.placeholder.com/150" class="img-fluid">
-            </div>
-            <div class="col-4 d-none">
-              <img src="https://via.placeholder.com/150" class="img-fluid">
-            </div>
-            <div class="col-4 d-none">
-              <img src="https://via.placeholder.com/150" class="img-fluid">
-            </div>
-          </div>
-          <div class="slider-arrow">
-            <span class="slider-prev">&lt;</span>
-            <span class="slider-next">&gt;</span>
-          </div>
-        </div>
-      
-        <h2>Slider 3</h2>
-        <div class="slider-3">
-          <div class="row slider-row">
-            <div class="col-4">
-              <img src="https://via.placeholder.com/150" class="img-fluid">
-            </div>
-            <div class="col-4">
-              <img src="https://via.placeholder.com/150" class="img-fluid">
-            </div>
-            <div class="col-4">
-              <img src="https://via.placeholder.com/150" class="img-fluid">
-            </div>
-            <div class="col-4 d-none">
-              <img src="https://via.placeholder.com/150" class="img-fluid">
-            </div>
-            <div class="col-4 d-none">
-              <img src="https://via.placeholder.com/150" class="img-fluid">
-            </div>
-          </div>
-          <div class="slider-arrow">
-            <span class="slider-prev">&lt;</span>
-            <span class="slider-next">&gt;</span>
-          </div>
-        </div>
-      </div>
+
             
       <!-- <div class="slider-container">
         <div class="slider-wrapper">
@@ -473,32 +362,7 @@ No arriesgues la seguridad de tu hogar o negocio. Confía en [nombre de la empre
        -->
 <!-- Image slider section -->
 
-  <footer class="bg-dark text-light py-3">
-    <div class="container text-center">
-      <div class="row justify-content-center">
-        <div class="col-md-6 col-lg-6">
-          <div class="row">
-            <div class="col-md-6 col-lg-6">
-              <a href="#" class="text-light d-block mb-2">
-                <i class="bi bi-facebook"></i> Facebook
-              </a>
-              <a href="#" class="text-light d-block">
-                <i class="bi bi-shop"></i> Mercadolibre (ventas a todos el pais)
-              </a>
-            </div>
-            <div class="col-md-6 col-lg-6">
-              <a href="mailto:ventas@mundolock.com" class="text-light d-block mb-2">
-                <i class="bi bi-envelope"></i> ventas@mundolock.com
-              </a>
-              <a href="https://wa.me/xxxxxxxxxx" target="_blank" class="text-light d-block">
-                <i class="bi bi-whatsapp"></i> WhatsApp
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+
   <div class="container">
     <div id="myDiv"></div>
 
